@@ -1,0 +1,205 @@
+body{
+    background: fixed;
+    background-color: #F8F3F3;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-atas{
+    background-color: #8C8481;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile{
+    display: flex;
+    flex: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.photo-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    border-style: none;
+    object-fit: cover; 
+    margin: 8px;
+}
+
+.desc-profile{
+    display: flex;
+    flex-flow: column;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+
+    p{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    h3{
+        font-size: 18px;
+        margin : 0;
+    }
+}
+
+.logo{
+    width: auto;
+    height: 60px;
+    margin-right: 20px;
+}
+
+/* ---------- body section ------------ */
+
+#body-section{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar-samping{
+    background-color: #B0A9A6;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-home{
+    margin: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #F8F3F3;
+    width: 40px;
+    height: 40px;
+    background-color: #9E9592;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-gallery{
+    margin: 15px;
+    cursor: pointer;
+    color: #F8F3F3;
+}
+
+.icon-calendar{
+    margin: 15px;
+    cursor: pointer;
+    color: #F8F3F3;
+}
+
+.icon-profile{
+    margin: 15px;
+    cursor: pointer;
+    color: #F8F3F3;
+}
+
+/* main content */
+
+.part-a{
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    justify-content: space-between;
+}
+
+.add-new-outfit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 47.5%;
+    background-color: #F0E8E8;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+
+    p{
+        font-size: 13px;
+        margin: 0;
+    }
+}
+
+.ask-ai{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    height: 40px;
+    width: 47.5%;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #C5C0BF;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border: none;
+    border-radius: 5px;
+
+    p{
+        opacity: 0.5;
+    }
+}
+
+.container-ai{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    p{
+        margin: 0;
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size:13px;
+        opacity: 1;
+    }
+    svg{
+        margin: 0;
+    }
+}
+
+.content-title{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.part-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3{
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+        margin: 0;
+        margin-left: 40px;
+    }
+}
+
+.outfits{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right:10px;
+
+    img{
+        display:flex;
+        width: 18.5%;
+        margin: 10px;
+        border:none;
+        border-radius:10px;
+    }
+}

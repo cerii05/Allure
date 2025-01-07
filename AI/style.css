@@ -1,0 +1,191 @@
+body{
+    background: fixed;
+    background-color: #F8F3F3;
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/AllurePages.png");
+    background-size: cover;
+}
+
+#navbar-atas{
+    background-color: #8C8481;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile{
+    display: flex;
+    flex: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.photo-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    border-style: none;
+    object-fit: cover; 
+    margin: 8px;
+}
+
+.desc-profile{
+    display: flex;
+    flex-flow: column;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+
+    p{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    h3{
+        font-size: 18px;
+        margin : 0;
+    }
+}
+
+.logo{
+    width: auto;
+    height: 60px;
+    margin-right: 20px;
+}
+
+/* ---------- body section ------------ */
+
+#body-section{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar-samping{
+    background-color: #B0A9A6;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-home{
+    margin: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #F8F3F3;
+    width: 40px;
+    height: 40px;
+    background-color: #9E9592;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-gallery{
+    margin: 15px;
+    cursor: pointer;
+    color: #F8F3F3;
+}
+
+.icon-calendar{
+    margin: 15px;
+    cursor: pointer;
+    color: #F8F3F3;
+}
+
+.icon-profile{
+    margin: 15px;
+    cursor: pointer;
+    color: #F8F3F3;
+}
+
+/* STYLE CHAT */
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    width: 100%; 
+    justify-content: space-between;
+}
+
+.part-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 12px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+
+    p{
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: normal;
+        margin: 0;
+    }
+}
+
+.chat-box {
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+  }
+  
+  .chat-box .message {
+    margin: 10px 0;
+    display: flex;
+  }
+  
+  .chat-box .message.user {
+    justify-content: flex-end;
+  }
+  
+  .chat-box .message.bot {
+    justify-content: flex-start;
+  }
+  
+  .chat-box .message .bubble {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+  }
+  
+  .chat-box .message.user .bubble {
+    background: white;
+    color: black;
+  }
+  
+  .chat-input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .chat-input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .chat-input-container button {
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .chat-input-container button:hover {
+    background: #433b39;
+    color: white;
+  }
+  
