@@ -1,3 +1,23 @@
+function goToHome(){
+  window.location.href = "../index.html";
+}
+
+function goToGallery(){
+  window.location.href = "../Gallery/galleryPage.html";
+}
+
+function goToCalendar(){
+  window.location.href = "../Calendar/calendarPage.html";
+}
+
+function goToProfile(){
+  window.location.href = "../Profile/profilePage.html";
+}
+
+function goToUpload(){
+  window.location.href = "../Upload/uploadPage.html";
+}
+
 const chatBox = document.getElementById("chat-box");
 const chatInput = document.getElementById("chat-input");
 const sendBtn = document.getElementById("send-btn");
@@ -27,7 +47,7 @@ function getBotResponse(userMessage) {
 
 // Greet the user when the page loads
 function botGreeting() {
-  const greeting = "Hello! Welcome to AI Chat. How can I assist you today?";
+  const greeting = "Hi i'm Allure, what's on today?";
   appendMessage(greeting, "bot");
 }
 
