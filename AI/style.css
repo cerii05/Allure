@@ -131,8 +131,12 @@ body{
 
 .chat-box {
     padding: 15px;
-    height: 400px;
+    height: 70%;
     overflow-y: auto;
+
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   .chat-box .message {
@@ -164,7 +168,6 @@ body{
   .chat-input-container {
     display: flex;
     padding: 10px;
-    border-top: 1px solid #ddd;
   }
   
   .chat-input-container input {
@@ -173,6 +176,9 @@ body{
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-right: 10px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   .chat-input-container button {
