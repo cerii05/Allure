@@ -129,6 +129,10 @@ body{
     }
 }
 
+.back{
+    cursor: pointer;
+}
+
 .chat-box {
     padding: 15px;
     height: 70%;
